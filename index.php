@@ -2,7 +2,8 @@
 
 $data = [1, 9, 4.5, 6.6, 5.7, -4.5];
 
-function selectionSort($data) {
+function selectionSort($data)
+{
     $dataLength = count($data);
     for ($i = 0; $i < $dataLength - 1; $i++) {
         $min = $i;
